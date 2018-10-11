@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BB6FD4216FCB2600FB864F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB6FD3216FCB2600FB864F /* AppDelegate.swift */; };
+		18BB6FD6216FCB2600FB864F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB6FD5216FCB2600FB864F /* ViewController.swift */; };
+		18BB6FD9216FCB2600FB864F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BB6FD7216FCB2600FB864F /* Main.storyboard */; };
+		18BB6FDB216FCB2A00FB864F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BB6FDA216FCB2A00FB864F /* Assets.xcassets */; };
+		18BB6FDE216FCB2A00FB864F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BB6FDC216FCB2A00FB864F /* LaunchScreen.storyboard */; };
+		18BB6FE9216FCB2A00FB864F /* restlabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB6FE8216FCB2A00FB864F /* restlabTests.swift */; };
+		18BB6FF4216FCB2A00FB864F /* restlabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB6FF3216FCB2A00FB864F /* restlabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BB6FE5216FCB2A00FB864F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BB6FC8216FCB2600FB864F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BB6FCF216FCB2600FB864F;
+			remoteInfo = restlab;
+		};
+		18BB6FF0216FCB2A00FB864F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BB6FC8216FCB2600FB864F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BB6FCF216FCB2600FB864F;
+			remoteInfo = restlab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BB6FD0216FCB2600FB864F /* restlab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restlab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BB6FD3216FCB2600FB864F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18BB6FD5216FCB2600FB864F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18BB6FD8216FCB2600FB864F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BB6FDA216FCB2A00FB864F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BB6FDD216FCB2A00FB864F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BB6FDF216FCB2A00FB864F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BB6FE4216FCB2A00FB864F /* restlabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = restlabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BB6FE8216FCB2A00FB864F /* restlabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restlabTests.swift; sourceTree = "<group>"; };
+		18BB6FEA216FCB2A00FB864F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BB6FEF216FCB2A00FB864F /* restlabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = restlabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BB6FF3216FCB2A00FB864F /* restlabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restlabUITests.swift; sourceTree = "<group>"; };
+		18BB6FF5216FCB2A00FB864F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BB6FCD216FCB2600FB864F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BB6FE1216FCB2A00FB864F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BB6FEC216FCB2A00FB864F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BB6FC7216FCB2600FB864F = {
+			isa = PBXGroup;
+			children = (
+				18BB6FD2216FCB2600FB864F /* restlab */,
+				18BB6FE7216FCB2A00FB864F /* restlabTests */,
+				18BB6FF2216FCB2A00FB864F /* restlabUITests */,
+				18BB6FD1216FCB2600FB864F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BB6FD1216FCB2600FB864F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BB6FD0216FCB2600FB864F /* restlab.app */,
+				18BB6FE4216FCB2A00FB864F /* restlabTests.xctest */,
+				18BB6FEF216FCB2A00FB864F /* restlabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BB6FD2216FCB2600FB864F /* restlab */ = {
+			isa = PBXGroup;
+			children = (
+				18BB6FD3216FCB2600FB864F /* AppDelegate.swift */,
+				18BB6FD5216FCB2600FB864F /* ViewController.swift */,
+				18BB6FD7216FCB2600FB864F /* Main.storyboard */,
+				18BB6FDA216FCB2A00FB864F /* Assets.xcassets */,
+				18BB6FDC216FCB2A00FB864F /* LaunchScreen.storyboard */,
+				18BB6FDF216FCB2A00FB864F /* Info.plist */,
+			);
+			path = restlab;
+			sourceTree = "<group>";
+		};
+		18BB6FE7216FCB2A00FB864F /* restlabTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BB6FE8216FCB2A00FB864F /* restlabTests.swift */,
+				18BB6FEA216FCB2A00FB864F /* Info.plist */,
+			);
+			path = restlabTests;
+			sourceTree = "<group>";
+		};
+		18BB6FF2216FCB2A00FB864F /* restlabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18BB6FF3216FCB2A00FB864F /* restlabUITests.swift */,
+				18BB6FF5216FCB2A00FB864F /* Info.plist */,
+			);
+			path = restlabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BB6FCF216FCB2600FB864F /* restlab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BB6FF8216FCB2A00FB864F /* Build configuration list for PBXNativeTarget "restlab" */;
+			buildPhases = (
+				18BB6FCC216FCB2600FB864F /* Sources */,
+				18BB6FCD216FCB2600FB864F /* Frameworks */,
+				18BB6FCE216FCB2600FB864F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = restlab;
+			productName = restlab;
+			productReference = 18BB6FD0216FCB2600FB864F /* restlab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BB6FE3216FCB2A00FB864F /* restlabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BB6FFB216FCB2A00FB864F /* Build configuration list for PBXNativeTarget "restlabTests" */;
+			buildPhases = (
+				18BB6FE0216FCB2A00FB864F /* Sources */,
+				18BB6FE1216FCB2A00FB864F /* Frameworks */,
+				18BB6FE2216FCB2A00FB864F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BB6FE6216FCB2A00FB864F /* PBXTargetDependency */,
+			);
+			name = restlabTests;
+			productName = restlabTests;
+			productReference = 18BB6FE4216FCB2A00FB864F /* restlabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18BB6FEE216FCB2A00FB864F /* restlabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BB6FFE216FCB2A00FB864F /* Build configuration list for PBXNativeTarget "restlabUITests" */;
+			buildPhases = (
+				18BB6FEB216FCB2A00FB864F /* Sources */,
+				18BB6FEC216FCB2A00FB864F /* Frameworks */,
+				18BB6FED216FCB2A00FB864F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BB6FF1216FCB2A00FB864F /* PBXTargetDependency */,
+			);
+			name = restlabUITests;
+			productName = restlabUITests;
+			productReference = 18BB6FEF216FCB2A00FB864F /* restlabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BB6FC8216FCB2600FB864F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18BB6FCF216FCB2600FB864F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					18BB6FE3216FCB2A00FB864F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 18BB6FCF216FCB2600FB864F;
+					};
+					18BB6FEE216FCB2A00FB864F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 18BB6FCF216FCB2600FB864F;
+					};
+				};
+			};
+			buildConfigurationList = 18BB6FCB216FCB2600FB864F /* Build configuration list for PBXProject "restlab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BB6FC7216FCB2600FB864F;
+			productRefGroup = 18BB6FD1216FCB2600FB864F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BB6FCF216FCB2600FB864F /* restlab */,
+				18BB6FE3216FCB2A00FB864F /* restlabTests */,
+				18BB6FEE216FCB2A00FB864F /* restlabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BB6FCE216FCB2600FB864F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BB6FDE216FCB2A00FB864F /* LaunchScreen.storyboard in Resources */,
+				18BB6FDB216FCB2A00FB864F /* Assets.xcassets in Resources */,
+				18BB6FD9216FCB2600FB864F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BB6FE2216FCB2A00FB864F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BB6FED216FCB2A00FB864F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BB6FCC216FCB2600FB864F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BB6FD6216FCB2600FB864F /* ViewController.swift in Sources */,
+				18BB6FD4216FCB2600FB864F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BB6FE0216FCB2A00FB864F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BB6FE9216FCB2A00FB864F /* restlabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BB6FEB216FCB2A00FB864F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BB6FF4216FCB2A00FB864F /* restlabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BB6FE6216FCB2A00FB864F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BB6FCF216FCB2600FB864F /* restlab */;
+			targetProxy = 18BB6FE5216FCB2A00FB864F /* PBXContainerItemProxy */;
+		};
+		18BB6FF1216FCB2A00FB864F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BB6FCF216FCB2600FB864F /* restlab */;
+			targetProxy = 18BB6FF0216FCB2A00FB864F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BB6FD7216FCB2600FB864F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BB6FD8216FCB2600FB864F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BB6FDC216FCB2A00FB864F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BB6FDD216FCB2A00FB864F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BB6FF6216FCB2A00FB864F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18BB6FF7216FCB2A00FB864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BB6FF9216FCB2A00FB864F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = restlab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.restlab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BB6FFA216FCB2A00FB864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = restlab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.restlab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18BB6FFC216FCB2A00FB864F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = restlabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.restlabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/restlab.app/restlab";
+			};
+			name = Debug;
+		};
+		18BB6FFD216FCB2A00FB864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = restlabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.restlabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/restlab.app/restlab";
+			};
+			name = Release;
+		};
+		18BB6FFF216FCB2A00FB864F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = restlabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.restlabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = restlab;
+			};
+			name = Debug;
+		};
+		18BB7000216FCB2A00FB864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = restlabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.restlabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = restlab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BB6FCB216FCB2600FB864F /* Build configuration list for PBXProject "restlab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BB6FF6216FCB2A00FB864F /* Debug */,
+				18BB6FF7216FCB2A00FB864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BB6FF8216FCB2A00FB864F /* Build configuration list for PBXNativeTarget "restlab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BB6FF9216FCB2A00FB864F /* Debug */,
+				18BB6FFA216FCB2A00FB864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BB6FFB216FCB2A00FB864F /* Build configuration list for PBXNativeTarget "restlabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BB6FFC216FCB2A00FB864F /* Debug */,
+				18BB6FFD216FCB2A00FB864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BB6FFE216FCB2A00FB864F /* Build configuration list for PBXNativeTarget "restlabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BB6FFF216FCB2A00FB864F /* Debug */,
+				18BB7000216FCB2A00FB864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BB6FC8216FCB2600FB864F /* Project object */;
+}
